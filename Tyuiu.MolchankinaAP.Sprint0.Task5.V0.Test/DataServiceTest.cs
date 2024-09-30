@@ -24,7 +24,7 @@ namespace Tyuiu.MolchankinaAP.Sprint0.Task5.V0.Test
         }
 
         [TestMethod]
-        public void CheckedDivisionValid() 
+        public void CheckedDivisionValid()
         {
             Assert.AreEqual(3, DataServise.Division(9, 3));
         }
